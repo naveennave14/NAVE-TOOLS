@@ -5,8 +5,8 @@
 
 `pkg install python python3 -y`
 
-`git clone  https://github.com/naveennave14/NAVE-TOOLS.git`
+`git clone  https://github.com/lucidphantom777/LP-TOOLS.git `
 
-`cd NAVE-TOOLS`
+`cd LP-TOOLS`
 
-`python Nave-tools.py`
+`python lp777-tools.py`
