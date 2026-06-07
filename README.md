@@ -5,8 +5,8 @@
 
 `pkg install python python3 -y`
 
-`git clone  `
+`git clone  https://github.com/naveennave14/NAVE-TOOLS.git`
 
-`cd `
+`cd NAVE-TOOLS`
 
 `python Nave-tools.py`
