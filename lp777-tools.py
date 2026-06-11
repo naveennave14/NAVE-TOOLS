@@ -778,7 +778,8 @@ def btc_1():
     choice = get_user_choice
 
     if choice == "1":
-         os.system("wget https://github.com/tony-btc0/seed-phrase-generator/releases/download/database/btc_database.txt")
+         os.system("git clone https://github.com/lucidphantom777/Wallen-gen.git")
+         os.system("cd Wallen-gen") 
          btc_1()
 
     elif choice == "2":
