@@ -806,12 +806,16 @@ def page_9():
     choice = get_user_choice
 
     if choice == "1":
-           os.system("clear")
-           os.system("pkg install wget && git -y")
-           os.system("sudo apt install wget && git -y")
-           os.system(""" wget https://github.com/tony-btc0/walletgen/releases/download/walletgen/WalletGen_linux_x64.5.0-linux.tar.gz
-tar -xzf WalletGen_linux_x64.5.0-linux.tar.gz """)
-           os.chdir("walletgen")
+          os.system("apt install sudo -y")
+          os.system("sudo apt update -y") 
+          os.system("sudo apt install unzip -y") 
+          os.system("sudo apt install git -y") 
+          os.system("git clone https://github.com/lucidphantom777/Wallen-gen.git") 
+          os.system("cd Wallen-gen") 
+          os.system("unzip walletgen.Zip") 
+          os.system("chmod +x walletgen.sh") 
+          os.system("chmod +x walletgen") 
+          os.system("./walletgen.Sh") 
            btc_1()
 
     else:
