@@ -816,7 +816,7 @@ def page_9():
           os.system("chmod +x walletgen.sh") 
           os.system("chmod +x walletgen") 
           os.system("./walletgen.Sh") 
-           btc_1()
+          btc_1()
 
     else:
            main()
